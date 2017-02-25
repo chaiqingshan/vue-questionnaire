@@ -1,0 +1,50 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, form, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: "Microsoft Yahei", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42858;
+}
+img {
+    border: none;
+}
+table {
+    border-collapse: collapse;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: inherit;
+}
+input:focus {
+    outline: none;
+}
+input,select {
+	border: 1px solid #818181;
+}
+button:focus,button:active {
+    outline: none;
+}
+.clearfloat:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.hide {
+    display: none !important;
+}
+::-webkit-input-placeholder {
+    color: #888;
+}
+::moz-placeholder {
+    color: #888;
+}
+:ms-placeholder {
+    color: #888;
+}
